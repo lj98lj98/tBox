@@ -1,4 +1,4 @@
-const webSite='https://wogg.xxooo.cf';
+const webSite='https://vip.omii.top';
 
    function newfetch(url, options) {
        options = options || {};
@@ -695,6 +695,7 @@ if (isQuark) {
      try {
        const url = webSite;
        const html2 = await 访问网页(url);
+
        const html = 文本_取中间(html2, "最新影片</h2>", "</html>");
        // 使用正则表达式匹配所有的电影项
        const itemRegex = /<div class="module-item">[\s\S]*?<div class="module-item-text">([\s\S]*?)<\/div>[\s\S]*?<\/div>/g;
@@ -725,50 +726,24 @@ if (isQuark) {
    
        // 定义分类数据
        const classData = [
-         { "type_id": 1, "type_name": "玩偶电影" },
-         { "type_id": 2, "type_name": "玩偶剧集" },
-         { "type_id": 3, "type_name": "动漫" },
-         { "type_id": 4, "type_name": "综艺" },
-         { "type_id": 44,"type_name": "臻彩视界" },
-         { "type_id": 6,  "type_name": "短剧" },
-         { "type_id": 5, "type_name": "音乐" }
+         { "type_id": 30, "type_name": "电影" },
+         { "type_id": 31, "type_name": "剧集" },
+         { "type_id": 32, "type_name": "动漫" },
+         { "type_id": 33, "type_name": "综艺" },
+         { "type_id": 34, "type_name": "短剧" }
        ];
    
        // 定义分类数据
        const filterData = {
-         "1": [
-           {
-             "key": "cateId",
-             "name": "剧情",
-             "value": [
-               { "n": "全部", "v": "" },
-               { "n": "动作", "v": "动作" },
-               { "n": "喜剧", "v": "喜剧" },
-               { "n": "爱情", "v": "爱情" },
-               { "n": "科幻", "v": "科幻" },
-               { "n": "恐怖", "v": "恐怖" },
-               { "n": "剧情", "v": "剧情" },
-               { "n": "战争", "v": "战争" },
-               { "n": "警匪", "v": "警匪" },
-               { "n": "古装", "v": "古装" },
-               { "n": "奇幻", "v": "奇幻" },
-               { "n": "犯罪", "v": "犯罪" },
-               { "n": "武侠", "v": "武侠" },
-               { "n": "冒险", "v": "冒险" },
-               { "n": "枪战", "v": "枪战" },
-               { "n": "悬疑", "v": "悬疑" },
-               { "n": "惊悚", "v": "惊悚" },
-               { "n": "历史", "v": "历史" }
-             ]
-           },
+         "30": [
            {
              "key": "area",
              "name": "地区",
              "value": [
                { "n": "全部", "v": "" },
-               { "n": "大陆", "v": "中国大陆" },
-               { "n": "香港", "v": "中国香港" },
-               { "n": "台湾", "v": "中国台湾" },
+               { "n": "大陆", "v": "大陆" },
+               { "n": "香港", "v": "香港" },
+               { "n": "台湾", "v": "台湾" },
                { "n": "美国", "v": "美国" },
                { "n": "韩国", "v": "韩国" },
                { "n": "英国", "v": "英国" },
@@ -844,39 +819,15 @@ if (isQuark) {
              ]
            }
          ],
-         "2": [
-           {
-             "key": "cateId",
-             "name": "剧情",
-             "value": [
-               { "n": "全部", "v": "" },
-               { "n": "动作", "v": "动作" },
-               { "n": "喜剧", "v": "喜剧" },
-               { "n": "爱情", "v": "爱情" },
-               { "n": "科幻", "v": "科幻" },
-               { "n": "恐怖", "v": "恐怖" },
-               { "n": "剧情", "v": "剧情" },
-               { "n": "战争", "v": "战争" },
-               { "n": "警匪", "v": "警匪" },
-               { "n": "古装", "v": "古装" },
-               { "n": "奇幻", "v": "奇幻" },
-               { "n": "犯罪", "v": "犯罪" },
-               { "n": "武侠", "v": "武侠" },
-               { "n": "冒险", "v": "冒险" },
-               { "n": "枪战", "v": "枪战" },
-               { "n": "悬疑", "v": "悬疑" },
-               { "n": "惊悚", "v": "惊悚" },
-               { "n": "历史", "v": "历史" }
-             ]
-           },
+         "31": [
            {
              "key": "area",
              "name": "地区",
              "value": [
                { "n": "全部", "v": "" },
-               { "n": "大陆", "v": "中国大陆" },
-               { "n": "香港", "v": "中国香港" },
-               { "n": "台湾", "v": "中国台湾" },
+               { "n": "大陆", "v": "大陆" },
+               { "n": "香港", "v": "香港" },
+               { "n": "台湾", "v": "台湾" },
                { "n": "美国", "v": "美国" },
                { "n": "韩国", "v": "韩国" },
                { "n": "英国", "v": "英国" },
@@ -952,42 +903,18 @@ if (isQuark) {
              ]
            }
          ],
-         "3": [
+         "32": [
            {
-             "key": "cateId",
-             "name": "剧情",
-             "value": [
-               { "n": "全部", "v": "" },
-               { "n": "情感", "v": "情感" },
-               { "n": "科幻", "v": "科幻" },
-               { "n": "热血", "v": "热血" },
-               { "n": "推理", "v": "推理" },
-               { "n": "搞笑", "v": "搞笑" },
-               { "n": "冒险", "v": "冒险" },
-               { "n": "萝莉", "v": "萝莉" },
-               { "n": "校园", "v": "校园" },
-               { "n": "动作", "v": "动作" },
-               { "n": "机战", "v": "机战" },
-               { "n": "运动", "v": "运动" },
-               { "n": "战争", "v": "战争" },
-               { "n": "少年", "v": "少年" },
-               { "n": "少女", "v": "少女" },
-               { "n": "社会", "v": "社会" },
-               { "n": "原创", "v": "原创" },
-               { "n": "亲子", "v": "亲子" },
-               { "n": "其他", "v": "其他" }
-             ]
-           }, {
              "key": "area",
              "name": "地区",
              "value": [
                { "n": "全部", "v": "" },
-               { "n": "大陆", "v": "中国大陆" },
+               { "n": "大陆", "v": "大陆" },
+               { "n": "香港", "v": "香港" },
+               { "n": "台湾", "v": "台湾" },
                { "n": "美国", "v": "美国" },
                { "n": "韩国", "v": "韩国" },
-               { "n": "英国", "v": "英国" },
-               { "n": "日本", "v": "日本" },
-               { "n": "法国", "v": "法国" }
+               { "n": "日本", "v": "日本" }
              ]
            },
            {
@@ -1055,20 +982,18 @@ if (isQuark) {
              ]
            }
          ],
-         "4": [
+         "33": [
            {
              "key": "area",
              "name": "地区",
              "value": [
                { "n": "全部", "v": "" },
-               { "n": "大陆", "v": "中国大陆" },
-               { "n": "香港", "v": "中国香港" },
-               { "n": "台湾", "v": "中国台湾" },
+               { "n": "大陆", "v": "大陆" },
+               { "n": "香港", "v": "香港" },
+               { "n": "台湾", "v": "台湾" },
                { "n": "美国", "v": "美国" },
                { "n": "韩国", "v": "韩国" },
-               { "n": "日本", "v": "日本" },
-               { "n": "法国", "v": "法国" },
-               { "n": "英国", "v": "英国" }
+               { "n": "日本", "v": "日本" }
              ]
            },
            {
@@ -1136,46 +1061,7 @@ if (isQuark) {
              ]
            }
          ],
-         "44": [
-            {
-                "key": "cateId",
-                "name": "剧情",
-                "value": [
-                  { "n": "全部", "v": "" },
-                  { "n": "爱情", "v": "爱情" },
-                  { "n": "恐怖", "v": "恐怖" },
-                  { "n": "动作", "v": "动作" },
-                  { "n": "科幻", "v": "科幻" },
-                  { "n": "剧情", "v": "剧情" },
-                  { "n": "战争", "v": "战争" },
-                  { "n": "警匪", "v": "警匪" },
-                  { "n": "犯罪", "v": "犯罪" },
-                  { "n": "古装", "v": "古装" },
-                  { "n": "奇幻", "v": "奇幻" },
-                  { "n": "武侠", "v": "武侠" },
-                  { "n": "冒险", "v": "冒险" },
-                  { "n": "枪战", "v": "枪战" },
-                  { "n": "悬疑", "v": "悬疑" },
-                  { "n": "惊悚", "v": "惊悚" },
-                  { "n": "经典", "v": "经典" },
-                  { "n": "青春", "v": "青春" },
-                  { "n": "文艺", "v": "文艺" },
-                  { "n": "历史", "v": "历史" }
-                ]
-              },{
-             "key": "area",
-             "name": "地区",
-             "value": [
-               { "n": "全部", "v": "" },
-               { "n": "大陆", "v": "中国大陆" },
-               { "n": "香港", "v": "中国香港" },
-               { "n": "台湾", "v": "中国台湾" },
-               { "n": "美国", "v": "美国" },
-               { "n": "韩国", "v": "韩国" },
-               { "n": "日本", "v": "日本" },
-               { "n": "英国", "v": "英国" }
-             ]
-           },
+         "34": [
            {
              "key": "year",
              "name": "年份",
@@ -1231,96 +1117,6 @@ if (isQuark) {
                { "n": "Z", "v": "Z" }
              ]
            },
-           {
-             "key": "by",
-             "name": "排序",
-             "value": [
-               { "n": "时间", "v": "" },
-               { "n": "人气", "v": "hits" },
-               { "n": "评分", "v": "score" }
-             ]
-           }
-         ],
-         "6": [
-            {
-                "key": "cateId",
-                "name": "剧情",
-                "value": [
-                  { "n": "全部", "v": "" },
-                  { "n": "男频", "v": "男频" },
-                  { "n": "女频", "v": "女频" },
-                  { "n": "都市", "v": "都市" },
-                  { "n": "甜宠", "v": "甜宠" },
-                  { "n": "年代", "v": "年代" },
-                  { "n": "穿越", "v": "穿越" },
-                  { "n": "古装", "v": "古装" },
-                  { "n": "亲情", "v": "亲情" },
-                  { "n": "奇幻", "v": "奇幻" },
-                  { "n": "萌宝", "v": "萌宝" },
-                  { "n": "重生", "v": "重生" },
-                  { "n": "冒险", "v": "冒险" },
-                  { "n": "逆袭", "v": "逆袭" },
-                  { "n": "虐恋", "v": "虐恋" },
-                  { "n": "鉴宝", "v": "鉴宝" },
-                  { "n": "复仇", "v": "复仇" },
-                  { "n": "修仙", "v": "修仙" }
-                ]
-              },{
-             "key": "year",
-             "name": "年份",
-             "value": [
-               { "n": "全部", "v": "" },
-               { "n": "2024", "v": "2024" },
-               { "n": "2023", "v": "2023" },
-               { "n": "2022", "v": "2022" },
-               { "n": "2021", "v": "2021" },
-               { "n": "2020", "v": "2020" }
-             ]
-           },
-           {
-             "key": "letter",
-             "name": "字母",
-             "value": [
-               { "n": "全部", "v": "" },
-               { "n": "A", "v": "A" },
-               { "n": "B", "v": "B" },
-               { "n": "C", "v": "C" },
-               { "n": "D", "v": "D" },
-               { "n": "E", "v": "E" },
-               { "n": "F", "v": "F" },
-               { "n": "G", "v": "G" },
-               { "n": "H", "v": "H" },
-               { "n": "I", "v": "I" },
-               { "n": "J", "v": "J" },
-               { "n": "K", "v": "K" },
-               { "n": "L", "v": "L" },
-               { "n": "M", "v": "M" },
-               { "n": "N", "v": "N" },
-               { "n": "O", "v": "O" },
-               { "n": "P", "v": "P" },
-               { "n": "Q", "v": "Q" },
-               { "n": "R", "v": "R" },
-               { "n": "S", "v": "S" },
-               { "n": "T", "v": "T" },
-               { "n": "U", "v": "U" },
-               { "n": "V", "v": "V" },
-               { "n": "W", "v": "W" },
-               { "n": "X", "v": "X" },
-               { "n": "Y", "v": "Y" },
-               { "n": "Z", "v": "Z" }
-             ]
-           },
-           {
-             "key": "by",
-             "name": "排序",
-             "value": [
-               { "n": "时间", "v": "" },
-               { "n": "人气", "v": "hits" },
-               { "n": "评分", "v": "score" }
-             ]
-           }
-         ],
-         "5": [
            {
              "key": "by",
              "name": "排序",
@@ -1359,7 +1155,7 @@ if (isQuark) {
    async function searchContent(keyword) {
        try {
            const encodedKeyword = encodeURIComponent(keyword);
-           const url = `${webSite}/vodsearch/-------------.html?wd=${encodedKeyword}`;
+           const url = `${webSite}/index.php/vod/search.html?wd=${encodedKeyword}`;
            const html = await 访问网页(url);
            const items = 文本_取中间_批量(html,'<div class="module-search-item">','<div class="video-info-footer">');
            const list = items.map((item) => {
@@ -1399,25 +1195,26 @@ if (isQuark) {
    
    //homeContent()
    //  .then(data => console.log(data))
-   //  .catch(error => console.error('Error:', error));
+    // .catch(error => console.error('Error:', error));
    
    //获取影视分类列表
    async function categoryContent(tid, pg = 1, extend) {
      try {
        // 解析 extend 参数
        let extendObj = extend ? JSON.parse(extend) : null;
-       let url = `${webSite}/vodshow/${tid}-{area}-{by}-{cateId}--{letter}---${pg}---{year}.html`;
+       let url = `${webSite}/index.php/vod/show/area/{area}/by/{by}/id/${tid}/letter/{letter}/year/{year}/page/${pg}.html`;
        // 替换 URL 中的占位符
-       if (extendObj) {
-         for (const [key, value] of Object.entries(extendObj)) {
-           const placeholder = `{${key}}`;
-           const encodedValue = encodeURIComponent(value || ''); // 对 value 进行 URL 编码
-           url = url.replace(new RegExp(placeholder, 'g'), encodedValue);
-         }
-       }
-       // 删除剩余的 {} 包围的占位符
-       url = url.replace(/{(.*?)}/g, '');
-       console.log(url);
+   // 替换 URL 中的占位符
+   if (extendObj) {
+    for (const [key, value] of Object.entries(extendObj)) {
+        if(value){
+      const placeholder = `{${key}}`;
+      const encodedValue = encodeURIComponent(value || ''); // 对 value 进行 URL 编码
+    url = url.replace(new RegExp(placeholder, 'g'), encodedValue); 
+        }
+    }
+  }
+  url = url.replace(/\/[a-zA-Z]+\/\{[a-zA-Z]+\}/g, '');
        const html = await 访问网页(url);
        // 使用正则表达式匹配所有的电影项
        const itemRegex = /<div class="module-item">[\s\S]*?<div class="module-item-text">([\s\S]*?)<\/div>[\s\S]*?<\/div>/g;
@@ -1453,17 +1250,16 @@ if (isQuark) {
        });
      }
    }
-   //categoryContent('2',2)
+   //categoryContent('30',1)
    //  .then(data => console.log(data))
    //  .catch(error => console.error('Error:', error));
    
-
 
   async function detailContent(ids) {
     const url = `${webSite}${ids}`;
     try {
         //console.log(url);
-        await toast('正在加载玩偶影片信息', 2);
+        await toast('正在加载影片信息...', 2);
         const html = await 访问网页(url);
         // 使用正则表达式提取信息
         const vod_id = ids;
@@ -1486,7 +1282,7 @@ if (isQuark) {
         //console.log(vod_remarks);
         const vod_content = 移除html代码(文本_取中间(html, '<p class="sqjj_a" style="display: none;">', '<span class="sq_jj red">')) || '暂无剧情';
         //console.log(vod_content);
-        const cloudLinks = html.match(/<a class="btn-pc btn-down fzlj" href="(.*?)"/g).map(link => link.replace(/<a class="btn-pc btn-down fzlj" href="/, '').replace(/" title=".*?">/g, '')) || [];
+        const cloudLinks = html.match(/<a class="btn-pc btn-down" href="(.*?)"/g).map(link => link.replace(/<a class="btn-pc btn-down" href="/, '').replace(/" title=".*?">/g, '')) || [];
         //console.log(cloudLinks);
         // 初始化 vod_play_from 和 vod_play_url
         let vod_play_from = [];
@@ -1494,6 +1290,7 @@ if (isQuark) {
         // 记录云盘名称的使用次数
         const cloudNameCount = {};
         //await toast('正在加载网盘剧集信息',5);
+
 
 
        // 并发执行 fetchVideoFiles
@@ -1524,6 +1321,7 @@ if (isQuark) {
        });
        vod_play_from = vod_play_from.filter(Boolean);
        vod_play_url = vod_play_url.filter(Boolean);
+
 
 
 
@@ -1577,10 +1375,11 @@ if (isQuark) {
 
 
 
-
-   //detailContent('/voddetail/85273.html')
-    // .then(data => console.log(data))
-   //  .catch(error => console.error('Error:', error));
+   //detailContent("/index.php/vod/detail/id/74.html")
+   //  .then(data => console.log(data))
+   // .catch(error => console.error('Error:', error));
+   
+   
    
    
    
