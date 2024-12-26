@@ -266,6 +266,20 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},{
+		"key": "libvio",
+		"name": "🌏libvio|不卡",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "HD5播放,BD播放",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/lj98lj98/tBox/refs/heads/main/newjs/libvio.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},{
 		"key": "zhenbuka",
 		"name": "🚀真不卡┃嗅探",
 		"type": 6,
