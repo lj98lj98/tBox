@@ -462,6 +462,20 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},{
+                "key": "网盘推送",
+                "name": "💗网盘┃推送",
+                "type": 5,
+                "searchable": 0,
+                "filterClass": "",
+                "firstClass": "",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/lj98lj98/tBox/refs/heads/main/json/网盘推送.js",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": "",
+                "selectedPlayer": "0"
+	},{
 		"key": "heimuer",
 		"name": "🖤木耳┃资源",
 		"type": 1,
